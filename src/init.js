@@ -1,2 +1,3 @@
-import loadEvent from './events/loadEvent.js';
-loadEvent();
+import getPokemonListener from './events/getPokemonListener.js';
+
+getPokemonListener();

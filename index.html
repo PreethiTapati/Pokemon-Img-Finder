@@ -4,10 +4,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./styles/style.css" />
-        <title>Test</title>
+        <title>Pokemon finder</title>
     </head>
     <body>
-        <div id="root"></div>
+        <div class="container" >
+            <div id="root"></div>
+            <input
+                type="number"
+                id="search-bar"
+                placeholder="get pokemon card"
+            />
+            <button type="search-button" id="search-button">
+                Generate Pokemon
+            </button>
+            <!--<div class="pokemon-container" id="pokemon-container"></div>-->
+           </div> 
+       
+
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
